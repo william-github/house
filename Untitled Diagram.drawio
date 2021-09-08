@@ -1,1 +1,184 @@
-<mxfile host="app.diagrams.net" modified="2021-09-08T11:52:46.554Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.38" version="15.1.1" etag="SOekr1lYw__MoHXMMqR4" type="github"><diagram id="KnJ1Zq6jVHHd5aORQDIP">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-08T11:53:19.423Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.38" etag="pZy5pmF8FJlvsvDya3Sd" version="15.1.1" type="github">
+  <diagram id="KnJ1Zq6jVHHd5aORQDIP" name="Page-1">
+    <mxGraphModel dx="1002" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vcKJHKEmJrE5B3eXRtiQ-2" target="vcKJHKEmJrE5B3eXRtiQ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-2" value="下订单（和显示价格无关，全都是校验）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="373" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-3" value="获取商品信息&amp;amp;&amp;amp;验证是否可用购买" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="593" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-4" value="验证商品信息是否有（&lt;b&gt;期货和预售&lt;/b&gt;）变动" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="593" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-5" value="检查是否期货商品&amp;amp;&amp;amp;检查是否购买满足条件" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="33" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-6" value="检查是否是预售商品&amp;amp;&amp;amp;判断预售库存是否够" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="33" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vcKJHKEmJrE5B3eXRtiQ-9" target="vcKJHKEmJrE5B3eXRtiQ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vcKJHKEmJrE5B3eXRtiQ-9" target="vcKJHKEmJrE5B3eXRtiQ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-9" value="&lt;span&gt;获取商品信息&amp;amp;&amp;amp;验证是否可用购买&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="393" y="210" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vcKJHKEmJrE5B3eXRtiQ-12" target="vcKJHKEmJrE5B3eXRtiQ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vcKJHKEmJrE5B3eXRtiQ-12" target="vcKJHKEmJrE5B3eXRtiQ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-12" value="&lt;span&gt;验证商品信息是否有变动&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="393" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-13" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vcKJHKEmJrE5B3eXRtiQ-15" target="vcKJHKEmJrE5B3eXRtiQ-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vcKJHKEmJrE5B3eXRtiQ-15" target="vcKJHKEmJrE5B3eXRtiQ-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-15" value="是否是参加活动" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="393" y="490" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-16" value="抛错end" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="503" y="1005" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vcKJHKEmJrE5B3eXRtiQ-19" target="vcKJHKEmJrE5B3eXRtiQ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vcKJHKEmJrE5B3eXRtiQ-19" target="vcKJHKEmJrE5B3eXRtiQ-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-19" value="&lt;span&gt;现货验证混批（最少购买单数）&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="393" y="855" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-20" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="vcKJHKEmJrE5B3eXRtiQ-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="433" y="663" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="563" y="1006" as="targetPoint" />
+            <mxPoint x="473" y="751" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vcKJHKEmJrE5B3eXRtiQ-24" target="vcKJHKEmJrE5B3eXRtiQ-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="333" y="755" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vcKJHKEmJrE5B3eXRtiQ-24" target="vcKJHKEmJrE5B3eXRtiQ-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-24" value="检查SAP是否库存" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="393" y="715" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vcKJHKEmJrE5B3eXRtiQ-26" target="vcKJHKEmJrE5B3eXRtiQ-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-26" value="推送SAP,获取信息，接受修复好货通库存" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="197" y="725" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vcKJHKEmJrE5B3eXRtiQ-28" target="vcKJHKEmJrE5B3eXRtiQ-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-28" value="生产订单" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="373" y="1116" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-29" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="373" y="1229" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vcKJHKEmJrE5B3eXRtiQ-31" target="vcKJHKEmJrE5B3eXRtiQ-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-31" value="检查特卖和现货订单最少下单金额；&lt;b&gt;该模块未验证&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="393" y="975" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vcKJHKEmJrE5B3eXRtiQ-34" target="vcKJHKEmJrE5B3eXRtiQ-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="353" y="895" />
+              <mxPoint x="353" y="755" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vcKJHKEmJrE5B3eXRtiQ-34" target="vcKJHKEmJrE5B3eXRtiQ-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-34" value="库存是否正常" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="217" y="855" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-35" value="抛错end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="197" y="1025" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-36" value="goods 表加activity_status表示该商品是否参加活动&lt;br&gt;验证商品信息同时判断是否是活动" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="243" y="180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vcKJHKEmJrE5B3eXRtiQ-39" target="vcKJHKEmJrE5B3eXRtiQ-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.519;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="231" y="525.52" as="sourcePoint" />
+            <mxPoint x="191" y="1049" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="168" y="526" />
+              <mxPoint x="168" y="1054" />
+              <mxPoint x="191" y="1054" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-39" value="检查活动是否满足购买条件" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="233" y="490" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vcKJHKEmJrE5B3eXRtiQ-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="393" y="529.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-41" value="活动数据回传" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vcKJHKEmJrE5B3eXRtiQ-40">
+          <mxGeometry x="0.1524" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-42" value="特卖&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="213" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-43" value="预售" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="173" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-44" value="期货" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="153" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-45" value="activity_status，包括活动以及：价格体系、库存体系等" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="123" y="100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-46" value="&lt;span&gt;期货、预售是不需要验证库存&lt;/span&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="253" y="585" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vcKJHKEmJrE5B3eXRtiQ-48" target="vcKJHKEmJrE5B3eXRtiQ-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="493" y="638" />
+              <mxPoint x="493" y="830" />
+              <mxPoint x="433" y="830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vcKJHKEmJrE5B3eXRtiQ-48" value="是否需要验证库存" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="393" y="598" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
